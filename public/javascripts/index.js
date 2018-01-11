@@ -33,6 +33,7 @@ var ctx = canvas.getContext("2d");
 box.appendChild(canvas);
 
 function draw(arr) {
+  ctx.clearRect(0, 0, width, height); //清除画布内容包含宽高，否则会持续叠加
   var w = width / size;
   for (var i = 0; i < size; i++) {
     var h = arr[i] / 256 * height;
