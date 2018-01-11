@@ -1,4 +1,6 @@
-````音乐可视化
+##音乐可视化
+
+````
 
 第一步：cnpm i -g express-generator
 	安装express-generator生成器（类似脚手架的一个工具）
