@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="/stylesheets/index.css">
+</head>
+
+<body>
+	<header>
+		<h1><%= title %></h1>
+		<p>
+			Volume <input id="volume" type="range" min="0" max="100" value="60" />
+		</p>
+		<p>
+			<input id="stop" type="button" value="stop" />
+		</p>
+	</header>
+	<div>
+		<ul id="list">
+			<% music.forEach(function(name){ %>
+				<li title="<%= name %>">
+					<%= name.split('.')[0] %>
+				</li>
+				<% }) %>
+		</ul>
+		<div class="box">
+
+		</div>
+		<p>【歌名】：What Are Words</p>
+		<p>【演唱】：Chris Medina</p>
+		<p>【填词】：Rodney Jerkins</p>
+		<p>【时长】：01：38</p>
+		<div class="left">
+			<h2>【英文歌词】：</h2>
+			<p>Anywhere you are, I am near</p>
+			<p>Anywhere you go, I'll be there</p>
+			<p>Anytime you whisper my name, you'll see</p>
+			<p>Every single promise I keep</p>
+			<p>Cause what kind of guy would I be</p>
+			<p>If I was to leave when you need me most</p>
+			<p>What are words</p>
+			<p>If you really don't mean them</p>
+			<p>When you say them</p>
+			<p>What are words</p>
+			<p>If they're only for good times</p>
+			<p>Then they don't</p>
+			<p>When it's love</p>
+			<p>Yeah, you say them out loud</p>
+			<p>Those words</p>
+			<p>They never go away</p>
+			<p>They live on</p>
+			<p>Even when we're gone</p>
+			<p>And I know an angel was sent</p>
+			<p>Just for me and I know I'm meant</p>
+			<p>To be where I am and I'm gonna be</p>
+			<p>Standing right beside her tonight</p>
+			<p>And I'm gonna be by your side</p>
+			<p>I would never leave when she needs me most</p>
+			<p>What are words</p>
+			<p>If you really don't mean them</p>
+			<p>When you say them</p>
+			<p>What are words</p>
+			<p>If they're only for good times</p>
+			<p>Then they don't</p>
+			<p>When it's love</p>
+			<p>Yeah, you say them out loud</p>
+			<p>Those words</p>
+			<p>They never go away</p>
+			<p>They live on</p>
+			<p>Even when we're gone</p>
+			<p>Anywhere you are, I am near</p>
+			<p>Anywhere you go, I'll be there</p>
+			<p>And I'm gonna be here forever more</p>
+			<p>Every single promise I keep</p>
+			<p>Cause what kind of guy would I be</p>
+			<p>If I was to leave when you need me most</p>
+			<p>I'm forever keeping my angel close</p>
+		</div>
+		<div class="right">
+			<h2>【中文歌词】：</h2>
+			<p>无论你在与不在，我都会在这里，不弃不离</p>
+			<p>无论你走或未走，我愿相伴左右，生死相依</p>
+			<p>每一声轻轻的呼唤，我都将出现在你身旁</p>
+			<p>守护在你身边，信守我的诺言</p>
+			<p>请记住，在你最需要我的时候</p>
+			<p>我愿和你永不分离</p>
+			<p>否则我的存在有何意义</p>
+			<p>何为誓言</p>
+			<p>如若心不在焉，如何说出爱的诺言</p>
+			<p>如若只想共尽繁华，一切终将浮云如画</p>
+			<p>只有心中有爱</p>
+			<p>是的，心中有爱</p>
+			<p>请你大声喊出那爱的宣言</p>
+			<p>海枯石烂，此生不渝</p>
+			<p>即使容颜老去也决不分离</p>
+			<p>我明白，你就是上天赐予我的天使</p>
+			<p>无论何时何地，你是我的唯一</p>
+			<p>今夜，就在你最需要我的时候</p>
+			<p>我多想陪伴在你的身旁</p>
+			<p>相偎相依，生死不离</p>
+			<p>何为誓言</p>
+			<p>如若心不在焉，如何说出爱的诺言</p>
+			<p>如若只想共尽繁华，一切终将浮云如画</p>
+			<p>只有心中有爱</p>
+			<p>是的，心中有爱</p>
+			<p>请你大声喊出那爱的宣言</p>
+			<p>海枯石烂，此生不渝</p>
+			<p>即使容颜老去也决不分离</p>
+			<p>无论你在与不在，我都会在这里，不弃不离</p>
+			<p>无论你走或未走，我愿相伴左右，生死相依</p>
+			<p>永远在你身边，信守我的诺言</p>
+			<p>在你最需要我的时候</p>
+			<p>我愿和你永不分离</p>
+			<p>否则我的存在有何意义</p>
+			<p>我的天使</p>
+			<p>只想和你一起</p>
+			<p>生死相依，此生不渝</p>
+		</div>
+	</div>
+	<script src="/javascripts/index.js" charset="utf-8"></script>
+</body>
+
+</html>
