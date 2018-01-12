@@ -20,4 +20,6 @@
 	app.engine('.html',ejs.__express);
 	app.set('view engine', 'html');
 	注：尽量用jade，官网推荐，性能优越
+
+````
 ###https://www.imooc.com/video/6030
